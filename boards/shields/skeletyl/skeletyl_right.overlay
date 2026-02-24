@@ -11,6 +11,10 @@
     compatible = "zmk,kscan-gpio-matrix";
     wakeup-source;
     diode-direction = "col2row";
+&default_transform {
+    col-offset = <5>;
+};
+
 
     // КОЛОНКИ (Col)
     col-gpios
