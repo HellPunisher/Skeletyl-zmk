@@ -6,4 +6,4 @@
 # distinguish build outputs from each other:
 #
 board: [ "nrfmicro_13" ]
-shield: [ "skeletyl_central_left", "skeletyl_peripheral_right", "settings_reset"]
+shield: [ "skeletyl_left", "skeletyl_right", "settings_reset"]
