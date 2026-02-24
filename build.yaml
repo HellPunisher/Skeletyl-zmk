@@ -6,4 +6,4 @@
 # distinguish build outputs from each other:
 #
 board: [ "nrfmicro_13" ]
-shield: [ "cygnus_central_dongle dongle_display", "cygnus_central_left", "cygnus_peripheral_left", "cygnus_peripheral_right", "settings_reset"]
+shield: [ "skeletyl_central_left", "skeletyl_peripheral_right", "settings_reset"]
