@@ -29,3 +29,4 @@
         diode-direction = "col2row";
         wakeup-source;
     };
+};
