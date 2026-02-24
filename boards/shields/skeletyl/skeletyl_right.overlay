@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "cygnus.dtsi"
+#include "skeletyl.dtsi"
 
 &default_kscan {
     compatible = "zmk,kscan-gpio-matrix";
