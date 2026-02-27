@@ -7,3 +7,4 @@
 #
 board: [ "nrfmicro_13" ]
 shield: [ "skeletyl_left", "skeletyl_right", "settings_reset"]
+snippet: [ "studio-rpc-usb-uart" ]
