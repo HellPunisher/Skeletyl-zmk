@@ -33,45 +33,45 @@
         kscan = <&default_kscan>;
         keys
             // Строка 1 (Левая и Правая)
-            = <&key_physical_attrs 0 0 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 100 0 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 200 0 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 300 0 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 400 0 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 600 0 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 700 0 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 800 0 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 900 0 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 1000 0 100 100 0 0 0 0 0 0>
+            = <&key_physical_attrs 100 100 0 0 0 0 0>
+            , <&key_physical_attrs 100 100 100 0 0 0 0>
+            , <&key_physical_attrs 100 100 200 0 0 0 0>
+            , <&key_physical_attrs 100 100 300 0 0 0 0>
+            , <&key_physical_attrs 100 100 400 0 0 0 0>
+            , <&key_physical_attrs 100 100 600 0 0 0 0>
+            , <&key_physical_attrs 100 100 700 0 0 0 0>
+            , <&key_physical_attrs 100 100 800 0 0 0 0>
+            , <&key_physical_attrs 100 100 900 0 0 0 0>
+            , <&key_physical_attrs 100 100 1000 0 0 0 0>
             // Строка 2 (Левая и Правая)
-            , <&key_physical_attrs 0 100 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 100 100 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 200 100 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 300 100 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 400 100 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 600 100 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 700 100 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 800 100 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 900 100 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 1000 100 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 100 100 0 100 0 0 0>
+            , <&key_physical_attrs 100 100 100 100 0 0 0>
+            , <&key_physical_attrs 100 100 200 100 0 0 0>
+            , <&key_physical_attrs 100 100 300 100 0 0 0>
+            , <&key_physical_attrs 100 100 400 100 0 0 0>
+            , <&key_physical_attrs 100 100 600 100 0 0 0>
+            , <&key_physical_attrs 100 100 700 100 0 0 0>
+            , <&key_physical_attrs 100 100 800 100 0 0 0>
+            , <&key_physical_attrs 100 100 900 100 0 0 0>
+            , <&key_physical_attrs 100 100 1000 100 0 0 0>
             // Строка 3 (Левая и Правая)
-            , <&key_physical_attrs 0 200 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 100 200 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 200 200 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 300 200 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 400 200 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 600 200 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 700 200 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 800 200 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 900 200 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 1000 200 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 100 100 0 200 0 0 0>
+            , <&key_physical_attrs 100 100 100 200 0 0 0>
+            , <&key_physical_attrs 100 100 200 200 0 0 0>
+            , <&key_physical_attrs 100 100 300 200 0 0 0>
+            , <&key_physical_attrs 100 100 400 200 0 0 0>
+            , <&key_physical_attrs 100 100 600 200 0 0 0>
+            , <&key_physical_attrs 100 100 700 200 0 0 0>
+            , <&key_physical_attrs 100 100 800 200 0 0 0>
+            , <&key_physical_attrs 100 100 900 200 0 0 0>
+            , <&key_physical_attrs 100 100 1000 200 0 0 0>
             // Блок больших пальцев (Левые и Правые)
-            , <&key_physical_attrs 200 300 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 300 300 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 400 300 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 600 300 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 700 300 100 100 0 0 0 0 0 0>
-            , <&key_physical_attrs 800 300 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 100 100 200 300 0 0 0>
+            , <&key_physical_attrs 100 100 300 300 0 0 0>
+            , <&key_physical_attrs 100 100 400 300 0 0 0>
+            , <&key_physical_attrs 100 100 600 300 0 0 0>
+            , <&key_physical_attrs 100 100 700 300 0 0 0>
+            , <&key_physical_attrs 100 100 800 300 0 0 0>
             ;
     };
 
