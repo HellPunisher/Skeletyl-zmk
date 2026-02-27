@@ -17,6 +17,14 @@
 #define FUN_L 5
 #define GAM_L 6
 
+// === ДОБАВЛЯЕМ ВОТ ЭТОТ БЛОК ===
+/ {
+    chosen {
+        zmk,physical-layout = &default_layout;
+    };
+};
+// ===============================
+
 / {
     behaviors {
         hm: homerow_mods {
