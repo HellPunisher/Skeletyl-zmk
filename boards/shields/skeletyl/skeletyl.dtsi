@@ -10,8 +10,8 @@
 / {
     chosen {
         zmk,kscan = &default_kscan;
-        zmk,matrix_transform = &default_transform;
         zmk,physical-layout = &default_layout;
+        // zmk,matrix_transform ОТСЮДА УДАЛЕН НАВСЕГДА!
     };
 
     default_transform: keymap_transform_0 {
@@ -30,9 +30,7 @@
         compatible = "zmk,physical-layout";
         display-name = "Skeletyl";
         transform = <&default_transform>;
-        kscan = <&default_kscan>;
         keys
-            // Строка 1 (Левая и Правая)
             = <&key_physical_attrs 100 100 0 0 0 0 0>
             , <&key_physical_attrs 100 100 100 0 0 0 0>
             , <&key_physical_attrs 100 100 200 0 0 0 0>
@@ -43,7 +41,6 @@
             , <&key_physical_attrs 100 100 800 0 0 0 0>
             , <&key_physical_attrs 100 100 900 0 0 0 0>
             , <&key_physical_attrs 100 100 1000 0 0 0 0>
-            // Строка 2 (Левая и Правая)
             , <&key_physical_attrs 100 100 0 100 0 0 0>
             , <&key_physical_attrs 100 100 100 100 0 0 0>
             , <&key_physical_attrs 100 100 200 100 0 0 0>
@@ -54,7 +51,6 @@
             , <&key_physical_attrs 100 100 800 100 0 0 0>
             , <&key_physical_attrs 100 100 900 100 0 0 0>
             , <&key_physical_attrs 100 100 1000 100 0 0 0>
-            // Строка 3 (Левая и Правая)
             , <&key_physical_attrs 100 100 0 200 0 0 0>
             , <&key_physical_attrs 100 100 100 200 0 0 0>
             , <&key_physical_attrs 100 100 200 200 0 0 0>
@@ -65,7 +61,6 @@
             , <&key_physical_attrs 100 100 800 200 0 0 0>
             , <&key_physical_attrs 100 100 900 200 0 0 0>
             , <&key_physical_attrs 100 100 1000 200 0 0 0>
-            // Блок больших пальцев (Левые и Правые)
             , <&key_physical_attrs 100 100 200 300 0 0 0>
             , <&key_physical_attrs 100 100 300 300 0 0 0>
             , <&key_physical_attrs 100 100 400 300 0 0 0>
