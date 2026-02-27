@@ -5,11 +5,13 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <physical_layouts.dtsi>
 
 / {
     chosen {
         zmk,kscan = &default_kscan;
         zmk,matrix_transform = &default_transform;
+        zmk,physical-layout = &default_layout;
     };
 
     default_transform: keymap_transform_0 {
@@ -22,6 +24,55 @@
         RC(2,0) RC(2,1) RC(2,2) RC(2,3) RC(2,4)   RC(2,5) RC(2,6) RC(2,7) RC(2,8) RC(2,9)
                         RC(3,2) RC(3,3) RC(3,4)   RC(3,5) RC(3,6) RC(3,7)             
         >;
+    };
+
+    default_layout: default_layout {
+        compatible = "zmk,physical-layout";
+        display-name = "Skeletyl";
+        transform = <&default_transform>;
+        kscan = <&default_kscan>;
+        keys
+            // Строка 1 (Левая и Правая)
+            = <&key_physical_attrs 0 0 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 100 0 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 200 0 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 300 0 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 400 0 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 600 0 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 700 0 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 800 0 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 900 0 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 1000 0 100 100 0 0 0 0 0 0>
+            // Строка 2 (Левая и Правая)
+            , <&key_physical_attrs 0 100 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 100 100 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 200 100 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 300 100 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 400 100 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 600 100 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 700 100 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 800 100 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 900 100 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 1000 100 100 100 0 0 0 0 0 0>
+            // Строка 3 (Левая и Правая)
+            , <&key_physical_attrs 0 200 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 100 200 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 200 200 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 300 200 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 400 200 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 600 200 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 700 200 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 800 200 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 900 200 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 1000 200 100 100 0 0 0 0 0 0>
+            // Блок больших пальцев (Левые и Правые)
+            , <&key_physical_attrs 200 300 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 300 300 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 400 300 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 600 300 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 700 300 100 100 0 0 0 0 0 0>
+            , <&key_physical_attrs 800 300 100 100 0 0 0 0 0 0>
+            ;
     };
 
     default_kscan: kscan {
